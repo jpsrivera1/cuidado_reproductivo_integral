@@ -1,0 +1,1300 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Cuidado Reproductivo Integral �?" Información educativa sobre salud reproductiva, prevención, bienestar y derechos para la comunidad." />
+  <meta name="keywords" content="salud reproductiva, planificación familiar, embarazo, ETS, educación sexual, prevención, Guatemala" />
+  <title>Cuidado Reproductivo Integral</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Estilos propios -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- ========== HEADER / NAVEGACI�"N ========== -->
+<header class="header" id="header">
+  <nav class="navbar" role="navigation" aria-label="Navegación principal">
+    <a href="#inicio" class="nav-brand">
+      <img src="assets/logo.svg" alt="Logo Cuidado Reproductivo Integral" class="nav-logo" />
+      <span class="nav-title">Cuidado Reproductivo <strong>Integral</strong></span>
+    </a>
+
+    <button class="hamburger" id="hamburger" aria-label="Abrir menú de navegación" aria-expanded="false" aria-controls="nav-menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <ul class="nav-menu" id="nav-menu" role="list">
+      <li><a href="#inicio" class="nav-link">Inicio</a></li>
+      <li><a href="#introduccion" class="nav-link">Intro</a></li>
+      <li><a href="#anatomia" class="nav-link">Anatomía</a></li>
+      <li><a href="#educacion-sexual" class="nav-link">Ed. Sexual</a></li>
+      <li><a href="#planificacion" class="nav-link">Planific.</a></li>
+      <li><a href="#embarazo" class="nav-link">Embarazo</a></li>
+      <li><a href="#parto" class="nav-link">Parto</a></li>
+      <li><a href="#ets" class="nav-link">ETS</a></li>
+      <li><a href="#prevencion" class="nav-link">Prevención</a></li>
+      <li><a href="#adolescentes" class="nav-link">Adolesc.</a></li>
+      <li><a href="#salud-mental" class="nav-link">S. Mental</a></li>
+      <li><a href="#nutricion" class="nav-link">Nutrición</a></li>
+      <li><a href="#derechos" class="nav-link">Derechos</a></li>
+      <li><a href="#atencion" class="nav-link">Atención</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+<!-- ========== HERO ========== -->
+<section id="inicio" class="hero">
+  <div class="hero-content fade-in">
+    <span class="hero-badge"><i class="fa-solid fa-heart-pulse"></i> Salud · Bienestar · Prevención</span>
+    <h1 class="hero-title">Cuidado Reproductivo <span class="highlight">Integral</span></h1>
+    <p class="hero-subtitle">Información clara, segura y educativa para cuidar la salud, el bienestar y los derechos reproductivos de toda la comunidad.</p>
+    <div class="hero-buttons">
+      <a href="#introduccion" class="btn btn-primary"><i class="fa-solid fa-compass"></i> Explorar módulos</a>
+      <a href="#consejos" class="btn btn-secondary"><i class="fa-solid fa-lightbulb"></i> Ver consejos de salud</a>
+    </div>
+  </div>
+  <div class="hero-illustration fade-in">
+    <svg viewBox="0 0 400 320" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <!-- Fondo -->
+      <ellipse cx="200" cy="290" rx="180" ry="25" fill="#f49abc" opacity="0.15"/>
+      <!-- Árbol de vida -->
+      <rect x="192" y="160" width="16" height="120" rx="8" fill="#8fd6c8"/>
+      <ellipse cx="200" cy="140" rx="55" ry="65" fill="#8fd6c8" opacity="0.35"/>
+      <ellipse cx="165" cy="155" rx="38" ry="45" fill="#9ec9ed" opacity="0.4"/>
+      <ellipse cx="235" cy="155" rx="38" ry="45" fill="#b78bd6" opacity="0.4"/>
+      <ellipse cx="200" cy="105" rx="50" ry="58" fill="#8fd6c8" opacity="0.5"/>
+      <!-- Corazón central -->
+      <path d="M200 162 C200 162 183 152 183 143 Q183 136 190 136 Q195 136 200 142 Q205 136 210 136 Q217 136 217 143 Q217 152 200 162Z" fill="#f49abc"/>
+      <!-- Figura femenina izquierda -->
+      <circle cx="120" cy="200" r="14" fill="#f4b49c"/>
+      <rect x="112" y="214" width="16" height="55" rx="8" fill="#b78bd6"/>
+      <line x1="112" y1="230" x2="98" y2="252" stroke="#b78bd6" stroke-width="6" stroke-linecap="round"/>
+      <line x1="128" y1="230" x2="142" y2="252" stroke="#b78bd6" stroke-width="6" stroke-linecap="round"/>
+      <!-- Figura masculina derecha -->
+      <circle cx="280" cy="200" r="14" fill="#f4b49c"/>
+      <rect x="272" y="214" width="16" height="55" rx="8" fill="#9ec9ed"/>
+      <line x1="272" y1="230" x2="258" y2="252" stroke="#9ec9ed" stroke-width="6" stroke-linecap="round"/>
+      <line x1="288" y1="230" x2="302" y2="252" stroke="#9ec9ed" stroke-width="6" stroke-linecap="round"/>
+      <!-- Niño pequeño centro-izq -->
+      <circle cx="170" cy="235" r="10" fill="#f4b49c"/>
+      <rect x="164" y="245" width="12" height="35" rx="6" fill="#f49abc"/>
+      <!-- Cruz médica -->
+      <rect x="315" y="155" width="8" height="28" rx="3" fill="#f49abc" opacity="0.8"/>
+      <rect x="308" y="162" width="22" height="8" rx="3" fill="#f49abc" opacity="0.8"/>
+      <!-- Estrellas decorativas -->
+      <circle cx="60" cy="80" r="4" fill="#b78bd6" opacity="0.6"/>
+      <circle cx="340" cy="70" r="5" fill="#f49abc" opacity="0.6"/>
+      <circle cx="50" cy="180" r="3" fill="#8fd6c8" opacity="0.7"/>
+      <circle cx="355" cy="200" r="3" fill="#f4b49c" opacity="0.7"/>
+    </svg>
+  </div>
+</section>
+
+<!-- ========== INTRODUCCI�"N ========== -->
+<section id="introduccion" class="section section-light">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="section-tag">Módulo 1</span>
+      <h2 class="section-title">Introducción a la Salud Reproductiva</h2>
+      <p class="section-desc">Conoce los fundamentos del cuidado reproductivo integral y por qué es esencial para toda la comunidad.</p>
+    </div>
+    <div class="cards-grid fade-in">
+
+      <article class="card card-rosa">
+        <div class="card-icon"><i class="fa-solid fa-heart"></i></div>
+        <h3>¿Qué es la Salud Reproductiva?</h3>
+        <p>Es un estado de completo bienestar físico, mental y social en todos los aspectos relacionados con el sistema reproductivo, sus funciones y procesos.</p>
+        <div class="card-extra" id="extra-intro1">
+          <p>Según la OMS, implica que las personas puedan tener una vida sexual satisfactoria y segura, con la capacidad de reproducirse y la libertad de decidir si hacerlo, cuándo y con qué frecuencia.</p>
+        </div>
+        <button class="btn-expand" data-target="extra-intro1">Leer más <i class="fa-solid fa-chevron-down"></i></button>
+      </article>
+
+      <article class="card card-lila">
+        <div class="card-icon"><i class="fa-solid fa-shield-heart"></i></div>
+        <h3>Importancia del Cuidado Reproductivo</h3>
+        <p>El cuidado reproductivo previene enfermedades, reduce la mortalidad materna e infantil, y promueve el bienestar integral de familias y comunidades.</p>
+        <div class="card-extra" id="extra-intro2">
+          <p>Un adecuado cuidado reproductivo incluye el acceso a servicios de salud de calidad, información veraz y atención especializada antes, durante y después del embarazo.</p>
+        </div>
+        <button class="btn-expand" data-target="extra-intro2">Leer más <i class="fa-solid fa-chevron-down"></i></button>
+      </article>
+
+      <article class="card card-celeste">
+        <div class="card-icon"><i class="fa-solid fa-scale-balanced"></i></div>
+        <h3>Derechos Sexuales y Reproductivos</h3>
+        <p>Toda persona tiene derecho a recibir información, educación y acceso a servicios de salud reproductiva sin discriminación, coerción ni violencia.</p>
+        <div class="card-extra" id="extra-intro3">
+          <p>Estos derechos incluyen: decidir libre y responsablemente el número e intervalo de hijos, acceder a métodos anticonceptivos seguros, y recibir atención de calidad durante el embarazo y el parto.</p>
+        </div>
+        <button class="btn-expand" data-target="extra-intro3">Leer más <i class="fa-solid fa-chevron-down"></i></button>
+      </article>
+
+      <article class="card card-menta">
+        <div class="card-icon"><i class="fa-solid fa-bullseye"></i></div>
+        <h3>Objetivos de la Salud Reproductiva</h3>
+        <p>Reducir la mortalidad materna, prevenir ETS, promover la planificación familiar y garantizar el acceso universal a servicios de salud reproductiva.</p>
+        <div class="card-extra" id="extra-intro4">
+          <p>Los Objetivos de Desarrollo Sostenible de la ONU incluyen el acceso universal a servicios de salud sexual y reproductiva como meta fundamental para el bienestar global.</p>
+        </div>
+        <button class="btn-expand" data-target="extra-intro4">Leer más <i class="fa-solid fa-chevron-down"></i></button>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ========== ANATOMÍA Y FISIOLOGÍA ========== -->
+<section id="anatomia" class="section section-grad-rosa">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="section-tag">Módulo 2</span>
+      <h2 class="section-title">Anatomía y Fisiología Reproductiva</h2>
+      <p class="section-desc">Comprende cómo funciona el cuerpo humano y su sistema reproductivo de manera educativa y profesional.</p>
+    </div>
+    <div class="cards-grid cards-5 fade-in">
+
+      <article class="card card-hover">
+        <div class="card-icon card-icon-rosa"><i class="fa-solid fa-venus"></i></div>
+        <h3>Sistema Reproductor Femenino</h3>
+        <p>Compuesto por ovarios, trompas de Falopio, útero, cuello uterino y vagina. Produce óvulos y hormonas esenciales como estrógenos y progesterona.</p>
+        <div class="card-extra" id="extra-anat1">
+          <ul class="info-list">
+            <li><strong>Ovarios:</strong> producen óvulos y hormonas sexuales.</li>
+            <li><strong>Trompas de Falopio:</strong> canal que transporta el óvulo al útero.</li>
+            <li><strong>�stero:</strong> órgano donde se desarrolla el bebé durante el embarazo.</li>
+            <li><strong>Vagina:</strong> canal del parto y vía de salida de la menstruación.</li>
+          </ul>
+        </div>
+        <button class="btn-expand" data-target="extra-anat1">Ver más <i class="fa-solid fa-chevron-down"></i></button>
+      </article>
+
+      <article class="card card-hover">
+        <div class="card-icon card-icon-celeste"><i class="fa-solid fa-mars"></i></div>
+        <h3>Sistema Reproductor Masculino</h3>
+        <p>Incluye testículos, epidídimo, conductos deferentes, glándulas accesorias y pene. Produce espermatozoides y testosterona.</p>
+        <div class="card-extra" id="extra-anat2">
+          <ul class="info-list">
+            <li><strong>Testículos:</strong> producen espermatozoides y testosterona.</li>
+            <li><strong>Epidídimo:</strong> almacena y madura los espermatozoides.</li>
+            <li><strong>Próstata:</strong> produce líquido que nutre los espermatozoides.</li>
+            <li><strong>Pene:</strong> órgano de cópula y micción.</li>
+          </ul>
+        </div>
+        <button class="btn-expand" data-target="extra-anat2">Ver más <i class="fa-solid fa-chevron-down"></i></button>
+      </article>
+
+      <article class="card card-hover">
+        <div class="card-icon card-icon-lila"><i class="fa-solid fa-flask"></i></div>
+        <h3>Cambios Hormonales</h3>
+        <p>Las hormonas estrógeno, progesterona y testosterona regulan el desarrollo sexual, la fertilidad y múltiples funciones del organismo.</p>
+        <div class="card-extra" id="extra-anat3">
+          <ul class="info-list">
+            <li><strong>Estrógenos:</strong> regulan el ciclo menstrual y caracteres sexuales femeninos.</li>
+            <li><strong>Progesterona:</strong> prepara el útero para el embarazo.</li>
+            <li><strong>Testosterona:</strong> promueve el desarrollo masculino y la libido.</li>
+            <li><strong>FSH/LH:</strong> hormonas que controlan la ovulación y espermatogénesis.</li>
+          </ul>
+        </div>
+        <button class="btn-expand" data-target="extra-anat3">Ver más <i class="fa-solid fa-chevron-down"></i></button>
+      </article>
+
+      <article class="card card-hover">
+        <div class="card-icon card-icon-menta"><i class="fa-solid fa-person-growing"></i></div>
+        <h3>Pubertad y Desarrollo Sexual</h3>
+        <p>Proceso natural de maduración física y hormonal que ocurre en la adolescencia, marcando el inicio de la capacidad reproductiva.</p>
+        <div class="card-extra" id="extra-anat4">
+          <p><strong>En niñas (9-13 años):</strong> desarrollo de senos, vello púbico y axilar, crecimiento acelerado, inicio de la menstruación (menarquia).</p>
+          <p><strong>En niños (10-14 años):</strong> crecimiento testicular, voz más grave, vello facial y corporal, eyaculación.</p>
+        </div>
+        <button class="btn-expand" data-target="extra-anat4">Ver más <i class="fa-solid fa-chevron-down"></i></button>
+      </article>
+
+      <article class="card card-hover">
+        <div class="card-icon card-icon-durazno"><i class="fa-solid fa-circle-nodes"></i></div>
+        <h3>Ciclo Menstrual</h3>
+        <p>Proceso mensual de aproximadamente 28-35 días con cuatro fases: menstrual, folicular, ovulación y lútea, regulado por hormonas.</p>
+        <div class="card-extra" id="extra-anat5">
+          <ul class="info-list">
+            <li><strong>Fase menstrual (días 1-5):</strong> desprendimiento del endometrio.</li>
+            <li><strong>Fase folicular (días 1-13):</strong> maduración del folículo.</li>
+            <li><strong>Ovulación (día ~14):</strong> liberación del óvulo.</li>
+            <li><strong>Fase lútea (días 15-28):</strong> preparación para posible embarazo.</li>
+          </ul>
+        </div>
+        <button class="btn-expand" data-target="extra-anat5">Ver más <i class="fa-solid fa-chevron-down"></i></button>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ========== EDUCACI�"N SEXUAL ========== -->
+<section id="educacion-sexual" class="section section-light">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="section-tag">Módulo 3</span>
+      <h2 class="section-title">Educación Sexual Integral</h2>
+      <p class="section-desc">Haz clic en cada tema para explorar información educativa sobre sexualidad responsable y relaciones saludables.</p>
+    </div>
+    <div class="accordion fade-in" id="accordion-sexual">
+
+      <div class="accordion-item">
+        <button class="accordion-btn" aria-expanded="false">
+          <span><i class="fa-solid fa-hand-holding-heart acc-icon"></i> Sexualidad Responsable</span>
+          <i class="fa-solid fa-chevron-down acc-arrow"></i>
+        </button>
+        <div class="accordion-body">
+          <p>La sexualidad responsable implica tomar decisiones informadas sobre la propia vida sexual, respetando los propios límites y los de los demás. Incluye el conocimiento sobre métodos anticonceptivos, la comunicación honesta con la pareja y la búsqueda de atención médica regular.</p>
+          <ul class="info-list">
+            <li>Conocer y respetar el propio cuerpo.</li>
+            <li>Tomar decisiones libres, sin presión ni coerción.</li>
+            <li>Usar protección para prevenir ETS y embarazos no planificados.</li>
+            <li>Mantener comunicación abierta y honesta con la pareja.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <button class="accordion-btn" aria-expanded="false">
+          <span><i class="fa-solid fa-people-group acc-icon"></i> Relaciones Saludables</span>
+          <i class="fa-solid fa-chevron-down acc-arrow"></i>
+        </button>
+        <div class="accordion-body">
+          <p>Una relación saludable se caracteriza por el respeto mutuo, la comunicación abierta, la confianza y el apoyo entre las personas involucradas. Las relaciones saludables contribuyen al bienestar emocional y psicológico.</p>
+          <ul class="info-list">
+            <li><strong>Respeto:</strong> valorar los límites y decisiones del otro.</li>
+            <li><strong>Comunicación:</strong> expresar sentimientos y necesidades con honestidad.</li>
+            <li><strong>Confianza:</strong> base de toda relación sana.</li>
+            <li><strong>Igualdad:</strong> ninguna persona tiene más poder que otra en la relación.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <button class="accordion-btn" aria-expanded="false">
+          <span><i class="fa-solid fa-check-double acc-icon"></i> Consentimiento</span>
+          <i class="fa-solid fa-chevron-down acc-arrow"></i>
+        </button>
+        <div class="accordion-body">
+          <p>El consentimiento es un acuerdo activo, libre e informado para participar en cualquier actividad sexual. Debe ser dado libremente, puede retirarse en cualquier momento y no puede obtenerse bajo presión, alcohol o drogas.</p>
+          <div class="highlight-box">
+            <p><strong>El consentimiento debe ser:</strong> Libre · Informado · Específico · Reversible · Entusiasta</p>
+          </div>
+          <p>La falta de "no" no significa "sí". El silencio no es consentimiento.</p>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <button class="accordion-btn" aria-expanded="false">
+          <span><i class="fa-solid fa-shield-virus acc-icon"></i> Prevención de Riesgos Sexuales</span>
+          <i class="fa-solid fa-chevron-down acc-arrow"></i>
+        </button>
+        <div class="accordion-body">
+          <p>Prevenir los riesgos sexuales es fundamental para proteger la salud reproductiva. Las estrategias incluyen el uso correcto de métodos anticonceptivos, la realización de exámenes médicos periódicos y el acceso a información veraz.</p>
+          <ul class="info-list">
+            <li>Uso correcto y consistente del condón.</li>
+            <li>Reducción del número de parejas sexuales.</li>
+            <li>Exámenes regulares de ETS.</li>
+            <li>Vacunación contra VPH y Hepatitis B.</li>
+            <li>Evitar el alcohol y drogas que afectan el juicio.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <button class="accordion-btn" aria-expanded="false">
+          <span><i class="fa-solid fa-star acc-icon"></i> Autoestima y Bienestar Emocional</span>
+          <i class="fa-solid fa-chevron-down acc-arrow"></i>
+        </button>
+        <div class="accordion-body">
+          <p>La autoestima es la base de una sexualidad sana. Reconocer el propio valor permite tomar decisiones saludables, establecer límites claros y construir relaciones respetuosas y satisfactorias.</p>
+          <ul class="info-list">
+            <li>Reconoce y valora tu cuerpo tal como es.</li>
+            <li>Establece límites personales y hazlos respetar.</li>
+            <li>Busca apoyo profesional si experimentas dudas o angustia.</li>
+            <li>La sexualidad es parte integral de tu bienestar emocional.</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ========== PLANIFICACI�"N FAMILIAR ========== -->
+<section id="planificacion" class="section section-grad-lila">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="section-tag">Módulo 4</span>
+      <h2 class="section-title">Planificación Familiar</h2>
+      <p class="section-desc">Información completa sobre los métodos anticonceptivos y la importancia de planificar la familia con responsabilidad.</p>
+    </div>
+
+    <div class="cards-grid fade-in">
+      <article class="card card-hover">
+        <div class="card-icon card-icon-rosa"><i class="fa-solid fa-house-chimney-user"></i></div>
+        <h3>¿Qué es la Planificación Familiar?</h3>
+        <p>Es la capacidad de las personas de decidir libre y responsablemente si quieren hijos, cuántos desean tener y cuándo. Se apoya en métodos anticonceptivos y asesoramiento médico.</p>
+      </article>
+      <article class="card card-hover">
+        <div class="card-icon card-icon-lila"><i class="fa-solid fa-plus-circle"></i></div>
+        <h3>Beneficios de Planificar</h3>
+        <p>Mejora la salud materna, reduce la mortalidad infantil, permite el desarrollo personal y económico, y fortalece el bienestar familiar a corto y largo plazo.</p>
+      </article>
+      <article class="card card-hover">
+        <div class="card-icon card-icon-celeste"><i class="fa-solid fa-tablets"></i></div>
+        <h3>Métodos Hormonales</h3>
+        <p>Píldoras anticonceptivas, inyecciones mensuales o trimestrales, parches, anillos vaginales e implantes subdérmicos. Regulan las hormonas para prevenir el embarazo.</p>
+      </article>
+      <article class="card card-hover">
+        <div class="card-icon card-icon-menta"><i class="fa-solid fa-leaf"></i></div>
+        <h3>Métodos Naturales</h3>
+        <p>Método del ritmo, temperatura basal y moco cervical (Billings). Requieren seguimiento constante y no protegen contra ETS. Su efectividad depende del uso correcto.</p>
+      </article>
+      <article class="card card-hover">
+        <div class="card-icon card-icon-durazno"><i class="fa-solid fa-shield"></i></div>
+        <h3>Métodos de Barrera</h3>
+        <p>El condón masculino y femenino son los únicos métodos que protegen también contra enfermedades de transmisión sexual (ETS). El diafragma es otra opción de barrera.</p>
+      </article>
+      <article class="card card-hover">
+        <div class="card-icon card-icon-rosa"><i class="fa-solid fa-clock-rotate-left"></i></div>
+        <h3>Anticoncepción de Emergencia</h3>
+        <p>La "píldora del día después" se usa hasta 72 horas tras una relación sin protección. No es un método regular. El DIU de cobre también es opción de emergencia hasta 5 días después.</p>
+      </article>
+    </div>
+
+    <!-- Tabla comparativa -->
+    <div class="table-container fade-in">
+      <h3 class="table-title"><i class="fa-solid fa-table"></i> Comparativa de Métodos Anticonceptivos</h3>
+      <div class="table-scroll">
+        <table class="info-table">
+          <thead>
+            <tr>
+              <th>Método</th>
+              <th>Descripción</th>
+              <th>Nivel de Protección</th>
+              <th>Recomendación</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Condón masculino</strong></td>
+              <td>Funda de látex que cubre el pene durante la relación</td>
+              <td><span class="badge badge-verde">98% correcto uso</span></td>
+              <td>Siempre recomendado; protege contra ETS</td>
+            </tr>
+            <tr>
+              <td><strong>Píldora combinada</strong></td>
+              <td>Hormonal oral diaria con estrógeno y progestina</td>
+              <td><span class="badge badge-verde">99% uso correcto</span></td>
+              <td>Uso regular; requiere receta médica</td>
+            </tr>
+            <tr>
+              <td><strong>Inyección trimestral</strong></td>
+              <td>Progestágeno de depósito cada 3 meses</td>
+              <td><span class="badge badge-verde">99%</span></td>
+              <td>Práctica; administrada por personal de salud</td>
+            </tr>
+            <tr>
+              <td><strong>DIU hormonal</strong></td>
+              <td>Dispositivo intrauterino que libera hormonas</td>
+              <td><span class="badge badge-verde">&gt;99%</span></td>
+              <td>Larga duración (3-5 años); colocado por médico</td>
+            </tr>
+            <tr>
+              <td><strong>DIU de cobre</strong></td>
+              <td>Dispositivo intrauterino no hormonal</td>
+              <td><span class="badge badge-verde">&gt;99%</span></td>
+              <td>Hasta 10 años; también emergencia hasta 5 días</td>
+            </tr>
+            <tr>
+              <td><strong>Método del ritmo</strong></td>
+              <td>Abstinencia en días fértiles del ciclo</td>
+              <td><span class="badge badge-amarillo">76-88%</span></td>
+              <td>Solo para ciclos regulares; no protege ETS</td>
+            </tr>
+            <tr>
+              <td><strong>Anticoncepción de emergencia</strong></td>
+              <td>Píldora de levonorgestrel hasta 72h post-relación</td>
+              <td><span class="badge badge-amarillo">75-89%</span></td>
+              <td>Solo emergencias; no usar como método regular</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== EMBARAZO ========== -->
+<section id="embarazo" class="section section-light">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="section-tag">Módulo 5</span>
+      <h2 class="section-title">Embarazo y Control Prenatal</h2>
+      <p class="section-desc">Información esencial para acompañar cada etapa del embarazo con salud, bienestar y conocimiento.</p>
+    </div>
+
+    <div class="cards-grid fade-in">
+      <article class="card card-hover">
+        <div class="card-icon card-icon-rosa"><i class="fa-solid fa-stethoscope"></i></div>
+        <h3>Signos y Síntomas</h3>
+        <p>Ausencia de menstruación, náuseas matutinas, sensibilidad en senos, fatiga, aumento de la frecuencia urinaria y cambios de humor son señales frecuentes de embarazo.</p>
+      </article>
+      <article class="card card-hover">
+        <div class="card-icon card-icon-celeste"><i class="fa-solid fa-hospital-user"></i></div>
+        <h3>Control Prenatal</h3>
+        <p>Las consultas prenatales regulares (mínimo 8 según OMS) permiten detectar complicaciones temprano, monitorear el desarrollo del bebé y preparar el parto de forma segura.</p>
+      </article>
+      <article class="card card-hover">
+        <div class="card-icon card-icon-menta"><i class="fa-solid fa-apple-whole"></i></div>
+        <h3>Alimentación en el Embarazo</h3>
+        <p>Se requiere mayor consumo de ácido fólico (previene espina bífida), hierro, calcio, proteínas y una adecuada hidratación. Evitar alimentos crudos y alcohol.</p>
+      </article>
+      <article class="card card-hover">
+        <div class="card-icon card-icon-lila"><i class="fa-solid fa-person-pregnant"></i></div>
+        <h3>Cuidados de la Madre</h3>
+        <p>Descanso adecuado, ejercicio moderado (caminata, yoga prenatal), evitar estrés excesivo, no fumar ni consumir alcohol, y asistir puntualmente a las citas médicas.</p>
+      </article>
+      <article class="card card-hover">
+        <div class="card-icon card-icon-rosa"><i class="fa-solid fa-baby"></i></div>
+        <h3>Desarrollo del Bebé</h3>
+        <p>El corazón late desde la semana 6, los órganos principales se forman al trimestre, y a partir del mes 5 el bebé puede escuchar sonidos del exterior.</p>
+      </article>
+      <article class="card card-hover">
+        <div class="card-icon card-icon-durazno"><i class="fa-solid fa-triangle-exclamation"></i></div>
+        <h3>Embarazo de Alto Riesgo</h3>
+        <p>Diabetes gestacional, hipertensión, embarazo múltiple o problemas placentarios requieren seguimiento especializado y atención en hospitales de referencia.</p>
+      </article>
+    </div>
+
+    <!-- Línea de tiempo del embarazo -->
+    <div class="timeline-section fade-in">
+      <h3 class="sub-title"><i class="fa-solid fa-timeline"></i> Etapas del Embarazo</h3>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot dot-rosa"></div>
+          <div class="timeline-content">
+            <span class="timeline-tag">Primer Trimestre</span>
+            <h4>Semanas 1 �?" 12</h4>
+            <p>Formación de órganos vitales. Náuseas frecuentes. Primera consulta prenatal. Pruebas de sangre y ultrasonido inicial para confirmar el embarazo y detectar anomalías.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot dot-lila"></div>
+          <div class="timeline-content">
+            <span class="timeline-tag">Segundo Trimestre</span>
+            <h4>Semanas 13 �?" 26</h4>
+            <p>Crecimiento acelerado del bebé. Movimientos fetales perceptibles. Ultrasonido morfológico. La madre suele sentirse más estable emocionalmente. Revisión de la columna del bebé.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot dot-menta"></div>
+          <div class="timeline-content">
+            <span class="timeline-tag">Tercer Trimestre</span>
+            <h4>Semanas 27 �?" 40</h4>
+            <p>El bebé gana peso y madura pulmones. Preparación para el parto: clases, plan de nacimiento, elección del hospital. Control de presión arterial y monitoreo continuo.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot dot-durazno"></div>
+          <div class="timeline-content">
+            <span class="timeline-tag">Nacimiento</span>
+            <h4>Semana 38 �?" 42</h4>
+            <p>Inicio del trabajo de parto, contracciones regulares, dilatación cervical. El nacimiento puede ser vaginal o por cesárea según indicación médica. ¡Bienvenida nueva vida!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Alerta embarazo adolescente -->
+    <div class="alert-box alert-durazno fade-in">
+      <i class="fa-solid fa-circle-info"></i>
+      <div>
+        <strong>Embarazo Adolescente:</strong> Es un desafío social y de salud. Las jóvenes menores de 18 años tienen mayor riesgo de complicaciones. La educación sexual, el acceso a anticonceptivos y el apoyo familiar son fundamentales para la prevención.
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== PARTO Y POSPARTO ========== -->
+<section id="parto" class="section section-grad-menta">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="section-tag">Módulo 6</span>
+      <h2 class="section-title">Parto y Posparto</h2>
+      <p class="section-desc">Información sobre el proceso del nacimiento y los cuidados esenciales después del parto para la madre y el bebé.</p>
+    </div>
+    <div class="cards-grid cards-5 fade-in">
+      <article class="card card-hover">
+        <div class="card-icon card-icon-rosa"><i class="fa-solid fa-hospital"></i></div>
+        <h3>Tipos de Parto</h3>
+        <p>El parto puede ser vaginal (natural o con epidural) o por cesárea (electiva o de emergencia). La decisión depende de la salud de la madre y el bebé, siempre con criterio médico.</p>
+      </article>
+      <article class="card card-hover">
+        <div class="card-icon card-icon-lila"><i class="fa-solid fa-book-open"></i></div>
+        <h3>Preparación para el Parto</h3>
+        <p>Asistir a clases de preparación al parto, elaborar el plan de nacimiento, preparar la bolsa del hospital y conocer las señales de alarma que indican que es momento de acudir al centro de salud.</p>
+      </article>
+      <article class="card card-hover">
+        <div class="card-icon card-icon-celeste"><i class="fa-solid fa-bed-pulse"></i></div>
+        <h3>Cuidados Posparto</h3>
+        <p>Descanso, higiene adecuada de heridas (episiotomía o cesárea), alimentación nutritiva, apoyo emocional familiar y consulta médica al sexto día, al mes y a los tres meses del parto.</p>
+      </article>
+      <article class="card card-hover">
+        <div class="card-icon card-icon-menta"><i class="fa-solid fa-baby-carriage"></i></div>
+        <h3>Lactancia Materna</h3>
+        <p>La OMS recomienda lactancia materna exclusiva los primeros 6 meses. Aporta inmunidad, nutrición ideal y fortalece el vínculo afectivo madre-hijo. Consultar sobre posiciones correctas.</p>
+      </article>
+      <article class="card card-hover">
+        <div class="card-icon card-icon-durazno"><i class="fa-solid fa-heart-circle-check"></i></div>
+        <h3>Recuperación Física y Emocional</h3>
+        <p>La recuperación física toma 6 a 8 semanas. La depresión posparto afecta hasta el 20% de madres. Es importante identificar síntomas y buscar apoyo psicológico sin demora.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ========== ETS ========== -->
+<section id="ets" class="section section-light">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="section-tag">Módulo 7</span>
+      <h2 class="section-title">Enfermedades de Transmisión Sexual (ETS)</h2>
+      <p class="section-desc">Información educativa para conocer, prevenir y tratar las principales infecciones de transmisión sexual.</p>
+    </div>
+
+    <div class="alert-box alert-rosa fade-in">
+      <i class="fa-solid fa-triangle-exclamation"></i>
+      <div>
+        <strong>Aviso Importante:</strong> La información de esta página es educativa y <strong>no sustituye la atención médica profesional</strong>. Si tienes dudas o síntomas, acude a tu centro de salud más cercano.
+      </div>
+    </div>
+
+    <div class="cards-grid fade-in">
+      <article class="card card-hover">
+        <div class="card-icon card-icon-rosa"><i class="fa-solid fa-virus"></i></div>
+        <h3>¿Qué son las ETS?</h3>
+        <p>Son infecciones transmitidas principalmente mediante relaciones sexuales. Pueden ser causadas por bacterias, virus o parásitos. Muchas son asintomáticas, por ello los exámenes regulares son esenciales.</p>
+      </article>
+      <article class="card card-hover">
+        <div class="card-icon card-icon-lila"><i class="fa-solid fa-ribbon"></i></div>
+        <h3>VIH/SIDA</h3>
+        <p>El VIH ataca el sistema inmunológico. Con tratamiento antirretroviral, las personas pueden vivir vidas largas y saludables. La detección temprana es crucial. No se transmite por contacto casual.</p>
+      </article>
+      <article class="card card-hover">
+        <div class="card-icon card-icon-celeste"><i class="fa-solid fa-bacteria"></i></div>
+        <h3>Sífilis</h3>
+        <p>Infección bacteriana por <em>Treponema pallidum</em>. Pasa por etapas: úlcera inicial, erupción cutánea, sífilis latente y terciaria. Tratable con penicilina. Detectar en el embarazo es vital.</p>
+      </article>
+      <article class="card card-hover">
+        <div class="card-icon card-icon-menta"><i class="fa-solid fa-microscope"></i></div>
+        <h3>Gonorrea</h3>
+        <p>Bacteria <em>Neisseria gonorrhoeae</em>. Síntomas: secreción, ardor al orinar. Puede ser asintomática en mujeres. Tratable con antibióticos. La resistencia antibiótica es un problema creciente.</p>
+      </article>
+      <article class="card card-hover">
+        <div class="card-icon card-icon-durazno"><i class="fa-solid fa-biohazard"></i></div>
+        <h3>Virus del Papiloma Humano (VPH)</h3>
+        <p>Es la ETS más común. Algunos tipos causan verrugas genitales; otros están asociados al cáncer cervicouterino. La vacuna protege contra los tipos más peligrosos. El Papanicolaou detecta lesiones precancerosas.</p>
+      </article>
+      <article class="card card-hover">
+        <div class="card-icon card-icon-rosa"><i class="fa-solid fa-shield-halved"></i></div>
+        <h3>Prevención de ETS</h3>
+        <p>El uso correcto y consistente del condón reduce significativamente el riesgo de transmisión. Combinado con exámenes regulares, vacunación y reducción de parejas sexuales, es altamente efectivo.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ========== PREVENCI�"N Y CUIDADOS ========== -->
+<section id="prevencion" class="section section-grad-celeste">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="section-tag">Módulo 8</span>
+      <h2 class="section-title">Prevención y Cuidados</h2>
+      <p class="section-desc">Hábitos preventivos que protegen tu salud reproductiva a lo largo de toda la vida.</p>
+    </div>
+    <div class="cards-grid fade-in">
+      <article class="card card-hover">
+        <div class="card-icon card-icon-menta"><i class="fa-solid fa-soap"></i></div>
+        <h3>Higiene Íntima</h3>
+        <p>Usar agua tibia y jabón de pH neutro. Evitar duchas vaginales internas. Usar ropa interior de algodón. Cambiar la ropa interior diariamente para mantener el equilibrio bacteriano natural.</p>
+      </article>
+      <article class="card card-hover">
+        <div class="card-icon card-icon-celeste"><i class="fa-solid fa-calendar-check"></i></div>
+        <h3>Exámenes Médicos Periódicos</h3>
+        <p>Toda persona sexualmente activa debe realizarse exámenes anuales. Incluyen análisis de sangre, revisión genital, pruebas de ETS y evaluación general del sistema reproductivo.</p>
+      </article>
+      <article class="card card-hover">
+        <div class="card-icon card-icon-lila"><i class="fa-solid fa-file-medical"></i></div>
+        <h3>Papanicolaou (PAP)</h3>
+        <p>Prueba que detecta células anormales en el cuello uterino antes de que se conviertan en cáncer. Se recomienda cada 3 años a partir de los 21 años o al inicio de la actividad sexual.</p>
+      </article>
+      <article class="card card-hover">
+        <div class="card-icon card-icon-rosa"><i class="fa-solid fa-hands-holding-circle"></i></div>
+        <h3>Autoexamen de Mama</h3>
+        <p>Realizarlo una vez al mes, una semana después de la menstruación. Observar cambios en la forma, textura de la piel, pezones o bultos. Ante cualquier cambio, consultar al médico inmediatamente.</p>
+      </article>
+      <article class="card card-hover">
+        <div class="card-icon card-icon-menta"><i class="fa-solid fa-syringe"></i></div>
+        <h3>Vacunas Importantes</h3>
+        <p>La vacuna contra VPH (9-26 años) previene el cáncer cervical. La vacuna contra Hepatitis B protege de esta infección de transmisión sexual. Consulta el esquema nacional de vacunación.</p>
+      </article>
+      <article class="card card-hover">
+        <div class="card-icon card-icon-durazno"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+        <h3>Prevención del Cáncer Cervicouterino</h3>
+        <p>Segunda causa de muerte por cáncer en mujeres. Es prevenible con vacuna VPH, Papanicolaou regular y prueba IVAA. La detección temprana tiene tasas de curación muy altas.</p>
+      </article>
+    </div>
+
+    <!-- Checklist interactivo -->
+    <div class="checklist-section fade-in">
+      <h3 class="sub-title"><i class="fa-solid fa-list-check"></i> Mi Checklist de Prevención</h3>
+      <p class="checklist-desc">Marca los hábitos preventivos que ya practicas. ¡Cada hábito cuenta para tu salud!</p>
+      <div class="checklist-grid" id="checklist">
+        <label class="checklist-item">
+          <input type="checkbox" /> <span>Realizo Papanicolaou cada 3 años</span>
+        </label>
+        <label class="checklist-item">
+          <input type="checkbox" /> <span>Me hago el autoexamen de mama mensual</span>
+        </label>
+        <label class="checklist-item">
+          <input type="checkbox" /> <span>Estoy al día con mis vacunas (VPH, Hep B)</span>
+        </label>
+        <label class="checklist-item">
+          <input type="checkbox" /> <span>Acudo a mis chequeos médicos anuales</span>
+        </label>
+        <label class="checklist-item">
+          <input type="checkbox" /> <span>Mantengo higiene íntima adecuada</span>
+        </label>
+        <label class="checklist-item">
+          <input type="checkbox" /> <span>Uso protección en mis relaciones sexuales</span>
+        </label>
+        <label class="checklist-item">
+          <input type="checkbox" /> <span>Me realizo exámenes de ETS regularmente</span>
+        </label>
+        <label class="checklist-item">
+          <input type="checkbox" /> <span>Conozco los síntomas de alarma reproductivos</span>
+        </label>
+      </div>
+      <div class="checklist-progress">
+        <div class="progress-bar-bg">
+          <div class="progress-bar-fill" id="checklistProgress"></div>
+        </div>
+        <p id="checklistMsg" class="progress-msg">0 de 8 hábitos marcados</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== ADOLESCENTES ========== -->
+<section id="adolescentes" class="section section-light">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="section-tag">Módulo 9</span>
+      <h2 class="section-title">Salud Reproductiva en Adolescentes</h2>
+      <p class="section-desc">Información clara, educativa y respetuosa para jóvenes que están viviendo cambios importantes en su cuerpo y vida.</p>
+    </div>
+    <div class="cards-grid fade-in">
+      <article class="card card-rosa">
+        <div class="card-icon"><i class="fa-solid fa-person-rays"></i></div>
+        <h3>Cambios Físicos y Emocionales</h3>
+        <p>La pubertad trae cambios físicos normales y naturales: crecimiento, vello corporal, senos, menstruación en niñas; voz grave, músculos y espermatogénesis en niños. También hay cambios emocionales, que es completamente normal.</p>
+        <div class="card-extra" id="extra-adol1">
+          <p>Estos cambios son parte del crecimiento. Si tienes dudas, habla con un adulto de confianza o un profesional de salud. Nunca estás solo/a en este proceso.</p>
+        </div>
+        <button class="btn-expand" data-target="extra-adol1">Leer más <i class="fa-solid fa-chevron-down"></i></button>
+      </article>
+      <article class="card card-celeste">
+        <div class="card-icon"><i class="fa-solid fa-shield-heart"></i></div>
+        <h3>Prevención del Embarazo Precoz</h3>
+        <p>El embarazo en la adolescencia implica riesgos de salud y sociales. La educación sexual, el acceso a métodos anticonceptivos y el apoyo familiar son pilares de la prevención.</p>
+        <div class="card-extra" id="extra-adol2">
+          <p>Si necesitas información sobre anticonceptivos, puedes acudir a cualquier centro de salud o hablar con un profesional de salud. Es tu derecho recibir información sin ser juzgado/a.</p>
+        </div>
+        <button class="btn-expand" data-target="extra-adol2">Leer más <i class="fa-solid fa-chevron-down"></i></button>
+      </article>
+      <article class="card card-menta">
+        <div class="card-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+        <h3>Educación Sexual en Jóvenes</h3>
+        <p>La educación sexual integral proporciona herramientas para tomar decisiones informadas y responsables sobre la propia vida sexual, con respeto, conciencia y responsabilidad.</p>
+        <div class="card-extra" id="extra-adol3">
+          <p>La educación sexual no es solo información sobre actos, sino sobre valores, comunicación, relaciones sanas, respeto y cuidado propio y hacia los demás.</p>
+        </div>
+        <button class="btn-expand" data-target="extra-adol3">Leer más <i class="fa-solid fa-chevron-down"></i></button>
+      </article>
+      <article class="card card-lila">
+        <div class="card-icon"><i class="fa-solid fa-brain"></i></div>
+        <h3>Toma de Decisiones Responsables</h3>
+        <p>Ante la presión de pares, es importante recordar que tienes el derecho de decir NO. Busca el apoyo de adultos de confianza y profesionales de salud cuando lo necesites.</p>
+        <div class="card-extra" id="extra-adol4">
+          <p>Confía en tu instinto. Si algo no se siente bien, probablemente no lo está. Rodearte de personas que te respetan y apoyarte en un adulto de confianza marca la diferencia.</p>
+        </div>
+        <button class="btn-expand" data-target="extra-adol4">Leer más <i class="fa-solid fa-chevron-down"></i></button>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ========== SALUD MENTAL ========== -->
+<section id="salud-mental" class="section section-grad-rosa">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="section-tag">Módulo 10</span>
+      <h2 class="section-title">Salud Mental y Emocional</h2>
+      <p class="section-desc">El bienestar emocional es parte fundamental de la salud reproductiva. No estás solo/a.</p>
+    </div>
+
+    <div class="cards-grid fade-in">
+      <article class="card card-hover">
+        <div class="card-icon card-icon-rosa"><i class="fa-solid fa-heart"></i></div>
+        <h3>Salud Emocional en la Sexualidad</h3>
+        <p>Una sexualidad sana requiere bienestar emocional: autoestima, comunicación asertiva y relaciones basadas en el respeto mutuo y el afecto.</p>
+      </article>
+      <article class="card card-hover">
+        <div class="card-icon card-icon-lila"><i class="fa-solid fa-hand-fist"></i></div>
+        <h3>Violencia Sexual</h3>
+        <p>Es cualquier acto sexual no consentido. Si has vivido una situación de violencia, debes saber que no es tu culpa. Busca ayuda en las instituciones de apoyo disponibles.</p>
+      </article>
+      <article class="card card-hover">
+        <div class="card-icon card-icon-celeste"><i class="fa-solid fa-comments"></i></div>
+        <h3>Apoyo Psicológico</h3>
+        <p>Un profesional de salud mental puede ayudarte a procesar emociones difíciles, superar traumas y mejorar tu bienestar. Pedir ayuda es un acto de valentía y fortaleza.</p>
+      </article>
+      <article class="card card-hover">
+        <div class="card-icon card-icon-menta"><i class="fa-solid fa-triangle-exclamation"></i></div>
+        <h3>Relaciones Tóxicas</h3>
+        <p>Señales de alerta: control excesivo, celos, insultos, aislamiento de amigos y familia. Si reconoces estas señales, busca apoyo de personas de confianza o profesionales.</p>
+      </article>
+      <article class="card card-hover">
+        <div class="card-icon card-icon-durazno"><i class="fa-solid fa-face-sad-tear"></i></div>
+        <h3>Ansiedad y Depresión en el Embarazo</h3>
+        <p>Los cambios hormonales y el estrés pueden generar ansiedad o depresión durante y después del embarazo. El diagnóstico y tratamiento oportuno son fundamentales para la salud de la madre y el bebé.</p>
+      </article>
+    </div>
+
+    <!-- Botones de ayuda -->
+    <div class="help-buttons fade-in">
+      <h3 class="help-title"><i class="fa-solid fa-life-ring"></i> ¿Necesitas apoyo?</h3>
+      <div class="help-btns-group">
+        <a href="#atencion" class="btn btn-help btn-help-rosa">
+          <i class="fa-solid fa-hands-holding-heart"></i> Buscar apoyo
+        </a>
+        <a href="#atencion" class="btn btn-help btn-help-lila">
+          <i class="fa-solid fa-user-doctor"></i> Hablar con un profesional
+        </a>
+        <a href="#atencion" class="btn btn-help btn-help-celeste">
+          <i class="fa-solid fa-circle-exclamation"></i> Información de emergencia
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== NUTRICI�"N ========== -->
+<section id="nutricion" class="section section-light">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="section-tag">Módulo 11</span>
+      <h2 class="section-title">Nutrición y Estilo de Vida Saludable</h2>
+      <p class="section-desc">Un estilo de vida saludable es la base del bienestar reproductivo. Pequeños cambios generan grandes beneficios.</p>
+    </div>
+    <div class="cards-grid fade-in">
+      <article class="card card-menta">
+        <div class="card-icon"><i class="fa-solid fa-salad"></i></div>
+        <h3>Alimentación Saludable</h3>
+        <p>Consume abundantes frutas, verduras, granos integrales, proteínas magras y mantén buena hidratación. El ácido fólico, el hierro y el calcio son especialmente importantes para la salud reproductiva.</p>
+      </article>
+      <article class="card card-celeste">
+        <div class="card-icon"><i class="fa-solid fa-person-running"></i></div>
+        <h3>Ejercicio y Salud Reproductiva</h3>
+        <p>Al menos 30 minutos de actividad moderada al día mejoran la circulación, regulan las hormonas, reducen el estrés y mejoran la fertilidad. El ejercicio también es beneficioso durante el embarazo (con indicación médica).</p>
+      </article>
+      <article class="card card-rosa">
+        <div class="card-icon"><i class="fa-solid fa-moon"></i></div>
+        <h3>Importancia del Descanso</h3>
+        <p>Dormir entre 7 y 8 horas por noche es esencial para el equilibrio hormonal, la fertilidad y el sistema inmunológico. El sueño reparador también ayuda a manejar el estrés.</p>
+      </article>
+      <article class="card card-lila">
+        <div class="card-icon"><i class="fa-solid fa-ban"></i></div>
+        <h3>Alcohol, Tabaco y Drogas</h3>
+        <p>El consumo de alcohol, tabaco y drogas afecta negativamente la fertilidad, el ciclo menstrual y el desarrollo fetal. Durante el embarazo, cualquier cantidad puede causar daños irreversibles al bebé.</p>
+      </article>
+    </div>
+
+    <!-- Consejos rápidos de nutrición -->
+    <div class="tips-grid fade-in">
+      <h3 class="sub-title"><i class="fa-solid fa-bolt"></i> Consejos Rápidos</h3>
+      <div class="tips-cards">
+        <div class="tip-card tip-rosa"><i class="fa-solid fa-droplet"></i><p>Bebe al menos 8 vasos de agua al día</p></div>
+        <div class="tip-card tip-lila"><i class="fa-solid fa-seedling"></i><p>Incluye ácido fólico en tu dieta</p></div>
+        <div class="tip-card tip-menta"><i class="fa-solid fa-dumbbell"></i><p>Camina 30 min diarios</p></div>
+        <div class="tip-card tip-celeste"><i class="fa-solid fa-bed"></i><p>Duerme 7-8 horas cada noche</p></div>
+        <div class="tip-card tip-durazno"><i class="fa-solid fa-fish"></i><p>Consume hierro y proteínas</p></div>
+        <div class="tip-card tip-rosa"><i class="fa-solid fa-spa"></i><p>Practica técnicas de relajación</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== DERECHOS Y VALORES ========== -->
+<section id="derechos" class="section section-grad-lila">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="section-tag">Módulo 12</span>
+      <h2 class="section-title">Derechos y Valores Reproductivos</h2>
+      <p class="section-desc">Conocer y ejercer tus derechos reproductivos es fundamental para una vida plena, libre y con dignidad.</p>
+    </div>
+    <div class="cards-grid fade-in">
+      <article class="card card-hover">
+        <div class="card-icon card-icon-lila"><i class="fa-solid fa-gavel"></i></div>
+        <h3>Derechos Reproductivos</h3>
+        <p>Incluyen el derecho a decidir libre y responsablemente sobre la reproducción, recibir información completa y de calidad, acceder a servicios de salud y estar protegido/a de la discriminación y la violencia.</p>
+      </article>
+      <article class="card card-hover">
+        <div class="card-icon card-icon-rosa"><i class="fa-solid fa-venus-mars"></i></div>
+        <h3>Equidad de Género</h3>
+        <p>Hombres y mujeres tienen igualdad de derechos en el ámbito reproductivo. La equidad de género en salud implica acceso igualitario a servicios, información y toma de decisiones compartida.</p>
+      </article>
+      <article class="card card-hover">
+        <div class="card-icon card-icon-celeste"><i class="fa-solid fa-handshake"></i></div>
+        <h3>Respeto y Dignidad</h3>
+        <p>Toda persona merece ser atendida con respeto, sin discriminación por edad, etnia, condición económica o social. La atención de salud reproductiva debe ser humanizada y centrada en la persona.</p>
+      </article>
+      <article class="card card-hover">
+        <div class="card-icon card-icon-menta"><i class="fa-solid fa-star-of-life"></i></div>
+        <h3>�?tica en la Salud Reproductiva</h3>
+        <p>El consentimiento informado, la confidencialidad, la autonomía del paciente y el respeto a las decisiones personales son principios éticos fundamentales en la atención de salud reproductiva.</p>
+      </article>
+    </div>
+
+    <!-- Frases educativas -->
+    <div class="quotes-section fade-in">
+      <h3 class="sub-title"><i class="fa-solid fa-quote-left"></i> Valores que nos guían</h3>
+      <div class="quotes-grid">
+        <blockquote class="quote-card quote-rosa">
+          <p>"Cada persona tiene el derecho inalienable a decidir sobre su propia salud reproductiva."</p>
+        </blockquote>
+        <blockquote class="quote-card quote-lila">
+          <p>"La información es poder. Una comunidad educada protege su salud y sus derechos."</p>
+        </blockquote>
+        <blockquote class="quote-card quote-menta">
+          <p>"La equidad de género en salud salva vidas y transforma comunidades."</p>
+        </blockquote>
+        <blockquote class="quote-card quote-celeste">
+          <p>"El respeto y la dignidad son el fundamento de toda atención de salud de calidad."</p>
+        </blockquote>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== ATENCI�"N EN SALUD ========== -->
+<section id="atencion" class="section section-light">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="section-tag">Módulo 13</span>
+      <h2 class="section-title">Atención en Salud Reproductiva</h2>
+      <p class="section-desc">Conoce los servicios disponibles y la importancia de acudir al sistema de salud para el cuidado de tu bienestar reproductivo.</p>
+    </div>
+    <div class="cards-grid fade-in">
+      <article class="card card-hover">
+        <div class="card-icon card-icon-celeste"><i class="fa-solid fa-hospital"></i></div>
+        <h3>Servicios de Salud Reproductiva</h3>
+        <p>Los centros de salud ofrecen consultas prenatales, planificación familiar, Papanicolaou, atención de parto, vacunación, y seguimiento posparto. Son accesibles y confidenciales.</p>
+      </article>
+      <article class="card card-hover">
+        <div class="card-icon card-icon-rosa"><i class="fa-solid fa-calendar-plus"></i></div>
+        <h3>Importancia de la Consulta Médica</h3>
+        <p>La atención preventiva y el diagnóstico temprano reducen complicaciones, enfermedades y mortalidad. No esperes a tener síntomas graves para consultar al médico.</p>
+      </article>
+      <article class="card card-hover">
+        <div class="card-icon card-icon-lila"><i class="fa-solid fa-user-nurse"></i></div>
+        <h3>Atención Profesional de Enfermería</h3>
+        <p>Los enfermeros y enfermeras tienen un papel fundamental en la educación, prevención, control prenatal, vacunación y apoyo emocional en la salud reproductiva comunitaria.</p>
+      </article>
+      <article class="card card-hover">
+        <div class="card-icon card-icon-menta"><i class="fa-solid fa-earth-americas"></i></div>
+        <h3>Programas de Salud en Guatemala</h3>
+        <p>El MSPAS desarrolla programas de salud materna, planificación familiar, vacunación y atención primaria a nivel nacional. Las comadronas también tienen un rol reconocido en comunidades rurales.</p>
+      </article>
+    </div>
+
+    <!-- Enlaces externos -->
+    <div class="links-section fade-in">
+      <h3 class="sub-title"><i class="fa-solid fa-link"></i> Instituciones y Recursos Oficiales de Guatemala</h3>
+      <div class="links-grid">
+        <a href="https://www.mspas.gob.gt/" target="_blank" rel="noopener noreferrer" class="link-card link-card-rosa">
+          <i class="fa-solid fa-building-columns"></i>
+          <div>
+            <strong>Ministerio de Salud Pública y Asistencia Social</strong>
+            <span>mspas.gob.gt</span>
+          </div>
+          <i class="fa-solid fa-arrow-up-right-from-square link-arrow"></i>
+        </a>
+        <a href="https://www.igssgt.org/" target="_blank" rel="noopener noreferrer" class="link-card link-card-lila">
+          <i class="fa-solid fa-shield-halved"></i>
+          <div>
+            <strong>Instituto Guatemalteco de Seguridad Social (IGSS)</strong>
+            <span>igssgt.org</span>
+          </div>
+          <i class="fa-solid fa-arrow-up-right-from-square link-arrow"></i>
+        </a>
+        <a href="https://www.mspas.gob.gt/salud-reproductiva" target="_blank" rel="noopener noreferrer" class="link-card link-card-menta">
+          <i class="fa-solid fa-baby"></i>
+          <div>
+            <strong>Programa de Salud Materna y Neonatal</strong>
+            <span>MSPAS �?" Salud Reproductiva</span>
+          </div>
+          <i class="fa-solid fa-arrow-up-right-from-square link-arrow"></i>
+        </a>
+        <a href="https://www.mspas.gob.gt/vacunas" target="_blank" rel="noopener noreferrer" class="link-card link-card-celeste">
+          <i class="fa-solid fa-syringe"></i>
+          <div>
+            <strong>Programa Nacional de Vacunación</strong>
+            <span>MSPAS �?" Inmunizaciones</span>
+          </div>
+          <i class="fa-solid fa-arrow-up-right-from-square link-arrow"></i>
+        </a>
+        <a href="https://www.who.int/es/health-topics/sexual-and-reproductive-health" target="_blank" rel="noopener noreferrer" class="link-card link-card-durazno">
+          <i class="fa-solid fa-globe"></i>
+          <div>
+            <strong>Organización Mundial de la Salud �?" Salud Sexual</strong>
+            <span>who.int/es</span>
+          </div>
+          <i class="fa-solid fa-arrow-up-right-from-square link-arrow"></i>
+        </a>
+        <a href="https://www.paho.org/es/guatemala" target="_blank" rel="noopener noreferrer" class="link-card link-card-rosa">
+          <i class="fa-solid fa-earth-americas"></i>
+          <div>
+            <strong>OPS / OMS Guatemala</strong>
+            <span>paho.org/es/guatemala</span>
+          </div>
+          <i class="fa-solid fa-arrow-up-right-from-square link-arrow"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== VIDEOS ========== -->
+<section id="videos" class="section section-light">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="section-tag">Videos</span>
+      <h2 class="section-title">Videos Formativos</h2>
+      <p class="section-desc">Material audiovisual educativo organizado por categoría. Haz clic en "Ver video" para acceder al contenido.</p>
+    </div>
+
+    <!-- Filtros de categoría -->
+    <div class="filter-btns fade-in">
+      <button class="filter-btn active" data-filter="all">Todos</button>
+      <button class="filter-btn" data-filter="papanicolaou">Papanicolaou</button>
+      <button class="filter-btn" data-filter="ivaa">IVAA</button>
+      <button class="filter-btn" data-filter="emergencias">Emergencias</button>
+      <button class="filter-btn" data-filter="nutricion-v">Nutrición</button>
+      <button class="filter-btn" data-filter="comadronas">Comadronas</button>
+      <button class="filter-btn" data-filter="charlas">Charlas</button>
+    </div>
+
+    <div class="videos-grid fade-in" id="videosGrid">
+
+      <div class="video-card" data-category="papanicolaou">
+        <div class="video-thumb">
+          <img src="https://img.youtube.com/vi/44y1U-73uzQ/mqdefault.jpg" alt="Test de Papanicolaou" loading="lazy">
+          <i class="fa-solid fa-play-circle video-play-icon"></i>
+        </div>
+        <div class="video-info">
+          <span class="video-cat">Papanicolaou</span>
+          <h4>¿Qué es el Papanicolaou?</h4>
+          <p>Explicación completa sobre la prueba, quiénes deben realizársela y con qué frecuencia.</p>
+          <a href="https://www.youtube.com/watch?v=44y1U-73uzQ" target="_blank" rel="noopener noreferrer" class="btn btn-video">
+            <i class="fa-brands fa-youtube"></i> Ver video
+          </a>
+        </div>
+      </div>
+
+      <div class="video-card" data-category="ivaa">
+        <div class="video-thumb">
+          <img src="https://img.youtube.com/vi/rDRJNLmLzGM/mqdefault.jpg" alt="Inspección Visual con Ácido Acético" loading="lazy">
+          <i class="fa-solid fa-play-circle video-play-icon"></i>
+        </div>
+        <div class="video-info">
+          <span class="video-cat">IVAA</span>
+          <h4>Inspección Visual con Ácido Acético</h4>
+          <p>Procedimiento educativo para la detección temprana de lesiones precancerosas del cuello uterino.</p>
+          <a href="https://www.youtube.com/watch?v=rDRJNLmLzGM" target="_blank" rel="noopener noreferrer" class="btn btn-video">
+            <i class="fa-brands fa-youtube"></i> Ver video
+          </a>
+        </div>
+      </div>
+
+      <div class="video-card" data-category="emergencias">
+        <div class="video-thumb">
+          <img src="https://img.youtube.com/vi/pOP1GEcOByI/mqdefault.jpg" alt="Emergencias Obstétricas Básicas" loading="lazy">
+          <i class="fa-solid fa-play-circle video-play-icon"></i>
+        </div>
+        <div class="video-info">
+          <span class="video-cat">Emergencias Básicas</span>
+          <h4>Emergencias Obstétricas Básicas</h4>
+          <p>Señales de peligro durante el embarazo y qué hacer ante una emergencia antes de llegar al hospital.</p>
+          <a href="https://www.youtube.com/watch?v=pOP1GEcOByI" target="_blank" rel="noopener noreferrer" class="btn btn-video">
+            <i class="fa-brands fa-youtube"></i> Ver video
+          </a>
+        </div>
+      </div>
+
+      <div class="video-card" data-category="nutricion-v">
+        <div class="video-thumb">
+          <img src="https://img.youtube.com/vi/FRpEOKfMhHU/mqdefault.jpg" alt="Alimentación Saludable en el Embarazo" loading="lazy">
+          <i class="fa-solid fa-play-circle video-play-icon"></i>
+        </div>
+        <div class="video-info">
+          <span class="video-cat">Nutrición</span>
+          <h4>Alimentación Saludable en el Embarazo</h4>
+          <p>Guía práctica sobre nutrientes esenciales, alimentos recomendados y hábitos saludables durante la gestación.</p>
+          <a href="https://www.youtube.com/watch?v=FRpEOKfMhHU" target="_blank" rel="noopener noreferrer" class="btn btn-video">
+            <i class="fa-brands fa-youtube"></i> Ver video
+          </a>
+        </div>
+      </div>
+
+      <div class="video-card" data-category="comadronas">
+        <div class="video-thumb">
+          <img src="https://img.youtube.com/vi/FnDIKGpIkwE/mqdefault.jpg" alt="Comadronas en Guatemala" loading="lazy">
+          <i class="fa-solid fa-play-circle video-play-icon"></i>
+        </div>
+        <div class="video-info">
+          <span class="video-cat">Comadronas</span>
+          <h4>El Rol de la Comadrona en Guatemala</h4>
+          <p>La importancia de la partera tradicional en comunidades rurales y su integración al sistema de salud.</p>
+          <a href="https://www.youtube.com/watch?v=FnDIKGpIkwE" target="_blank" rel="noopener noreferrer" class="btn btn-video">
+            <i class="fa-brands fa-youtube"></i> Ver video
+          </a>
+        </div>
+      </div>
+
+      <div class="video-card" data-category="charlas">
+        <div class="video-thumb">
+          <img src="https://img.youtube.com/vi/9jy5Oyee8yk/mqdefault.jpg" alt="Derechos Sexuales y Reproductivos" loading="lazy">
+          <i class="fa-solid fa-play-circle video-play-icon"></i>
+        </div>
+        <div class="video-info">
+          <span class="video-cat">Charlas Educativas</span>
+          <h4>Derechos Sexuales y Reproductivos</h4>
+          <p>Charla sobre los derechos que toda persona tiene en materia de salud sexual y reproductiva según la OMS.</p>
+          <a href="https://www.youtube.com/watch?v=9jy5Oyee8yk" target="_blank" rel="noopener noreferrer" class="btn btn-video">
+            <i class="fa-brands fa-youtube"></i> Ver video
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ========== PREGUNTAS FRECUENTES ========== -->
+<section id="faq" class="section section-grad-celeste">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="section-tag">FAQ</span>
+      <h2 class="section-title">Preguntas Frecuentes</h2>
+      <p class="section-desc">Respuestas a las preguntas más comunes sobre salud reproductiva.</p>
+    </div>
+    <div class="accordion fade-in" id="accordion-faq">
+
+      <div class="accordion-item">
+        <button class="accordion-btn" aria-expanded="false">
+          <span><i class="fa-solid fa-circle-question acc-icon"></i> ¿Cuándo debo acudir al centro de salud?</span>
+          <i class="fa-solid fa-chevron-down acc-arrow"></i>
+        </button>
+        <div class="accordion-body">
+          <p>Debes acudir a tu centro de salud cuando: sospechas que estás embarazada, presentas síntomas inusuales (sangrado, dolor, secreciones), es tiempo de tu chequeo anual, necesitas información sobre anticonceptivos o detección temprana de enfermedades. No esperes a sentirte muy mal.</p>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <button class="accordion-btn" aria-expanded="false">
+          <span><i class="fa-solid fa-circle-question acc-icon"></i> ¿Qué es el Papanicolaou?</span>
+          <i class="fa-solid fa-chevron-down acc-arrow"></i>
+        </button>
+        <div class="accordion-body">
+          <p>El Papanicolaou (PAP) es una prueba ginecológica que consiste en tomar una pequeña muestra de células del cuello uterino para detectar cambios anormales que podrían indicar infección por VPH o lesiones precancerosas. Es indolora, rápida y puede salvar vidas. Se recomienda a partir de los 21 años o al inicio de la actividad sexual, cada 3 años si los resultados son normales.</p>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <button class="accordion-btn" aria-expanded="false">
+          <span><i class="fa-solid fa-circle-question acc-icon"></i> ¿Qué es el IVAA?</span>
+          <i class="fa-solid fa-chevron-down acc-arrow"></i>
+        </button>
+        <div class="accordion-body">
+          <p>El IVAA (Inspección Visual con Ácido Acético) es un método alternativo y económico para la detección temprana de lesiones precancerosas del cuello uterino. Se aplica ácido acético diluido al cuello uterino y se observan cambios visuales. Es especialmente útil en comunidades con recursos limitados, no requiere laboratorio y los resultados son inmediatos.</p>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <button class="accordion-btn" aria-expanded="false">
+          <span><i class="fa-solid fa-circle-question acc-icon"></i> ¿Por qué es importante el control prenatal?</span>
+          <i class="fa-solid fa-chevron-down acc-arrow"></i>
+        </button>
+        <div class="accordion-body">
+          <p>El control prenatal permite monitorear la salud de la madre y el bebé durante todo el embarazo, detectar complicaciones a tiempo (como diabetes gestacional, preeclampsia, anemia), verificar el desarrollo fetal, proporcionar vacunas y suplementos vitamínicos necesarios, y preparar a la madre para el parto. La OMS recomienda un mínimo de 8 controles prenatales.</p>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <button class="accordion-btn" aria-expanded="false">
+          <span><i class="fa-solid fa-circle-question acc-icon"></i> ¿Cómo prevenir enfermedades de transmisión sexual?</span>
+          <i class="fa-solid fa-chevron-down acc-arrow"></i>
+        </button>
+        <div class="accordion-body">
+          <p>Las principales medidas de prevención son: usar condón de forma correcta y consistente, vacunarse contra VPH y Hepatitis B, realizarse exámenes de ETS regularmente, reducir el número de parejas sexuales y mantener comunicación abierta con la pareja. Ante cualquier síntoma (secreción, úlceras, ardor), acude inmediatamente al médico.</p>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <button class="accordion-btn" aria-expanded="false">
+          <span><i class="fa-solid fa-circle-question acc-icon"></i> ¿Qué métodos anticonceptivos existen?</span>
+          <i class="fa-solid fa-chevron-down acc-arrow"></i>
+        </button>
+        <div class="accordion-body">
+          <p>Existen varios grupos: <strong>métodos hormonales</strong> (píldoras, inyecciones, parches, implantes), <strong>métodos de barrera</strong> (condón masculino y femenino, diafragma), <strong>dispositivos intrauterinos</strong> (DIU de cobre o hormonal), <strong>métodos naturales</strong> (ritmo, temperatura basal, Billings) y <strong>anticoncepción de emergencia</strong>. Consulta con un profesional de salud para elegir el más adecuado para ti.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ========== CONSEJOS DE SALUD ========== -->
+<section id="consejos" class="section section-light">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="section-tag">Consejos</span>
+      <h2 class="section-title">Consejos de Salud Reproductiva</h2>
+      <p class="section-desc">Pequeñas acciones que marcan una gran diferencia en tu salud y bienestar.</p>
+    </div>
+    <div class="tips-cards-main fade-in">
+
+      <div class="tip-main-card tip-m-rosa">
+        <div class="tip-m-icon"><i class="fa-solid fa-calendar-check"></i></div>
+        <h4>Chequeos Médicos Periódicos</h4>
+        <p>Acude a chequeos médicos al menos una vez al año, aunque te sientas bien. La prevención y detección temprana salvan vidas.</p>
+      </div>
+
+      <div class="tip-main-card tip-m-lila">
+        <div class="tip-m-icon"><i class="fa-solid fa-soap"></i></div>
+        <h4>Higiene Íntima Adecuada</h4>
+        <p>Mantén una higiene íntima con agua y jabón de pH neutro. Evita productos con fragancias fuertes que alteren la flora natural.</p>
+      </div>
+
+      <div class="tip-main-card tip-m-menta">
+        <div class="tip-m-icon"><i class="fa-solid fa-user-doctor"></i></div>
+        <h4>Consulta Antes de Usar Anticonceptivos</h4>
+        <p>Consulta siempre con personal de salud antes de iniciar cualquier método anticonceptivo para encontrar el más adecuado para ti.</p>
+      </div>
+
+      <div class="tip-main-card tip-m-celeste">
+        <div class="tip-m-icon"><i class="fa-solid fa-baby"></i></div>
+        <h4>Controles Durante el Embarazo</h4>
+        <p>Realiza todos los controles prenatales. Cada visita es una oportunidad de asegurar la salud tuya y la de tu bebé.</p>
+      </div>
+
+      <div class="tip-main-card tip-m-rosa">
+        <div class="tip-m-icon"><i class="fa-solid fa-hands-holding-heart"></i></div>
+        <h4>Busca Apoyo en Situaciones de Violencia</h4>
+        <p>Ante cualquier situación de violencia, busca apoyo inmediatamente. No estás sola/o. Existen instituciones que pueden ayudarte.</p>
+      </div>
+
+      <div class="tip-main-card tip-m-durazno">
+        <div class="tip-m-icon"><i class="fa-solid fa-apple-whole"></i></div>
+        <h4>Alimentación y Descanso</h4>
+        <p>Mantén una alimentación variada y nutritiva. Descansa adecuadamente. Tu bienestar físico impacta directamente en tu salud reproductiva.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ========== FOOTER ========== -->
+<footer class="footer">
+  <div class="footer-alert">
+    <i class="fa-solid fa-triangle-exclamation"></i>
+    <span><strong>Nota importante:</strong> La información presentada en este sitio tiene fines educativos y <strong>no sustituye una consulta médica profesional</strong>. Ante cualquier duda o síntoma, acude a tu centro de salud más cercano.</span>
+  </div>
+  <div class="footer-main">
+    <div class="footer-brand">
+      <a href="#inicio" class="footer-logo-link">
+        <img src="assets/logo.svg" alt="Logo Cuidado Reproductivo Integral" class="footer-logo" />
+        <span class="footer-name">Cuidado Reproductivo <strong>Integral</strong></span>
+      </a>
+      <p class="footer-slogan">Promoviendo información clara, responsable y respetuosa para el cuidado de la salud reproductiva integral.</p>
+    </div>
+
+    <nav class="footer-nav" aria-label="Navegación rápida del footer">
+      <h4>Módulos</h4>
+      <ul>
+        <li><a href="#introduccion">Introducción</a></li>
+        <li><a href="#anatomia">Anatomía</a></li>
+        <li><a href="#educacion-sexual">Educación Sexual</a></li>
+        <li><a href="#planificacion">Planificación Familiar</a></li>
+        <li><a href="#embarazo">Embarazo</a></li>
+        <li><a href="#parto">Parto y Posparto</a></li>
+        <li><a href="#ets">ETS</a></li>
+        <li><a href="#prevencion">Prevención</a></li>
+      </ul>
+    </nav>
+
+    <nav class="footer-nav" aria-label="Módulos adicionales del footer">
+      <h4>Más módulos</h4>
+      <ul>
+        <li><a href="#adolescentes">Adolescentes</a></li>
+        <li><a href="#salud-mental">Salud Mental</a></li>
+        <li><a href="#nutricion">Nutrición</a></li>
+        <li><a href="#derechos">Derechos</a></li>
+        <li><a href="#atencion">Atención en Salud</a></li>
+        <li><a href="#faq">Preguntas Frecuentes</a></li>
+      </ul>
+    </nav>
+
+    <div class="footer-links">
+      <h4>Recursos externos</h4>
+      <ul>
+        <li><a href="https://www.mspas.gob.gt/" target="_blank" rel="noopener noreferrer">MSPAS Guatemala</a></li>
+        <li><a href="https://www.igssgt.org/" target="_blank" rel="noopener noreferrer">IGSS Guatemala</a></li>
+        <li><a href="https://www.who.int/es" target="_blank" rel="noopener noreferrer">OMS / WHO</a></li>
+        <li><a href="https://www.paho.org/es/guatemala" target="_blank" rel="noopener noreferrer">OPS Guatemala</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2026 Cuidado Reproductivo Integral · Todos los derechos reservados.</p>
+    <p>Elaborado con fines educativos y comunitarios para promover la salud reproductiva en Guatemala.</p>
+  </div>
+</footer>
+
+<!-- Botón volver arriba -->
+<button class="btn-top" id="btnTop" aria-label="Volver al inicio de la página" title="Volver arriba" hidden>
+  <i class="fa-solid fa-arrow-up"></i>
+</button>
+
+<!-- Script -->
+<script src="script.js"></script>
+</body>
+</html>
