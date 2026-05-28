@@ -253,6 +253,41 @@ const $$ = (sel, ctx = document) => [...ctx.querySelectorAll(sel)];
 })();
 
 /* ============================================================
+   11b. MODAL BIOGRAFÍA
+============================================================ */
+(function initBioModal() {
+  const btnBio    = $('#btnBio');
+  const modal     = $('#bioModal');
+  const closeBtn  = $('#bioModalClose');
+  if (!btnBio || !modal || !closeBtn) return;
+
+  function openModal() {
+    modal.hidden = false;
+    document.body.style.overflow = 'hidden';
+    closeBtn.focus();
+  }
+
+  function closeModal() {
+    modal.hidden = true;
+    document.body.style.overflow = '';
+    btnBio.focus();
+  }
+
+  btnBio.addEventListener('click', openModal);
+  closeBtn.addEventListener('click', closeModal);
+
+  // Cerrar al hacer clic en el overlay (fuera de la tarjeta)
+  modal.addEventListener('click', (e) => {
+    if (e.target === modal) closeModal();
+  });
+
+  // Cerrar con Escape
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && !modal.hidden) closeModal();
+  });
+})();
+
+/* ============================================================
    12. SCROLL SUAVE PARA TODOS LOS ENLACES INTERNOS
 ============================================================ */
 (function initSmoothScroll() {
